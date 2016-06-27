@@ -1,0 +1,208 @@
+/*HTML Elements below here*/
+html, body{	
+	margin:0;	
+	padding:0;
+	height:100%;
+	min-width: 900px;
+	background-color: #155115;
+	color: #ffc;
+}
+input{
+	margin:10px;
+}
+a:link{
+	color:#ffc;
+}
+a:visited{
+	color: hotpink;
+}
+	
+ul{
+	list-style-type: none;
+}
+
+/*IDs below here*/
+#wrapper{
+	max-width:1356px;	
+	min-height:100%;
+	margin:auto;
+	position:relative;
+	background-color: #155115;
+	color: #ffc;
+}
+
+#header{
+	width:99%;
+	padding: 10px;
+	background-color: #155115;
+	color: #ffc;
+	text-shadow: 2px 2px black;
+	
+	
+}
+#Menubar{
+	width:100%;
+	height: auto;
+}
+
+#content{
+	padding-bottom:100px;
+	background-color: #155115;
+	color: #ffc;
+	min-height:inherit;
+}
+
+#footer{
+	background-color: #155115;
+	color: #ffc;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+/* Menu */
+ul#menu	{
+	padding: 0;
+}
+ul#menu li{
+	display: inline;
+}
+ul#menu li a{
+	background-color: black;
+	color: #ffc;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: thin solid white;
+	border-radius: 4px 4px 0 0;
+}
+ul#menu li a:hover{
+	background-color: #ffc;
+	color: #155115;
+	text-shadow: none;
+}
+
+/*Classes below here*/
+.left{
+	float:left;
+}
+.right{
+	float: right;
+}
+
+.contact{
+	width: 70%;
+	margin: auto;
+	height: 300px;
+	/*line-height: 10%;*/
+	border: thin solid;
+	padding: 5px;
+	background-color: #ffc;
+	color: #155115;
+	clear: both;
+	overflow: auto;
+}
+.inlineinput{
+	display: inline;
+}
+.textboxlarge{
+	height: 100px;
+	width: 100%;	
+}
+/* Article */
+.article{
+	width: 100%;
+	margin: auto;
+	height: 350px;
+	border: thin solid;
+	padding: 5px;
+	background-color: #ffc;
+	color: #155115;
+	clear: both;
+	overflow: auto;
+	
+}
+.article_left{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.article_right{
+	float:right;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+/*---Image Gallery---------*/
+div.img{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 100px;
+	height: 150px;
+}
+div.img.hover{
+	border: 1px solid #777;
+}
+div.img img{
+	width: 100px;
+	height: 50%;
+}
+div.desc{
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+/*--------------------------*/
+/*---Merch Gallery---------*/
+div.merchimg{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 120px;
+	height: 250px;
+}
+div.merchimg.hover{
+	border: 1px solid #777;
+}
+div.merchimg img{
+	width: 100px;
+	height: 100px;
+}
+div.merchdesc{
+	position:relative;
+	top:0px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+/*--------------------------*/
+.socialbutton{
+	float:right;
+	margin-top: 10px;
+	margin-right:20px;
+}
+.tight{
+	line-height:10%;
+}
+.calendar{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	border: thin solid;
+	padding: 5px;
+	background-color: #ffc;
+	color: #155115;
+	clear: both;
+	overflow: auto;
+	
+}
+.article ul li {
+}
