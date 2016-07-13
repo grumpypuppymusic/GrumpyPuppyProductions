@@ -7,6 +7,8 @@ html, body{
 	background-color: #155115;
 	color: #ffc;
 }
+
+
 input{
 	margin:10px;
 }
@@ -121,13 +123,14 @@ ul#menu li a:hover{
 	color: #155115;
 	clear: both;
 	overflow: auto;
-	
+	/*background-image:url(Images/White-Canvas-Texture-Backgrounds.jpg);*/
 }
 .article_left{
 	float:left;
 	margin-right: 10px;
 	margin-bottom: 20px;
 	padding: 10px;
+	
 }
 .article_right{
 	float:right;
@@ -205,4 +208,8 @@ div.merchdesc{
 	
 }
 .article ul li {
+}
+a[title]{
+	font-weight: bold;
+	color: red;
 }
